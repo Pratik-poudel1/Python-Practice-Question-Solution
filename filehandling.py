@@ -85,9 +85,26 @@
 #     print(f"'{word}' not found in the file.")
 
 
-# Read a CSV file and print its content.
+# # Read a CSV file and print its content.
+# import csv
+# with open('Practice Question/File Handling/data.csv', mode='r') as file:
+#     reader = csv.reader(file)
+#     for row in reader:
+#         print(row)
 
 
-# Save a dictionary as JSON and read it back using the json module.
+# # Save a dictionary as JSON and read it back using the json module.
+# import json
+# data = {
+#     "name": "Pratik",
+#     "age": 17,
+#     "city": "Kathmandu",
+#     "skills": ["Python", "HTML", "CSS"]
+# }
+# with open('Practice Question/File Handling/data.json', 'w') as file:
+#     json.dump(data, file, indent=4)
+# with open('Practice Question/File Handling/data.json', 'r') as file:
+#     loaded_data = json.load(file)
+# print(loaded_data)
 
 
